@@ -1,12 +1,11 @@
+import { useState } from 'react'
 import PropTypes from 'prop-types'
 
 
 export const CounterApp = ({value}) => {
 
     const  handleAdd = (event) => {
-        console.log('+1')
-        value = 1000;
-        console.log(value);
+        
     }
     
     return (
