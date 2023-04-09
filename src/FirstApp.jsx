@@ -1,18 +1,20 @@
-import React from 'react'
-import { Fragment } from 'react'
+import PropTypes from 'prop-types'
 
-const getMsj = () => {
-    return  'Retornando de una funcion';
- }
-export const FirstApp = () => {
+export const FirstApp = ({title, subTitle}) => {
    
-    const newMessage = 'Fernando!!!';
+    // console.log(title);
+
     return  (
         <>
-            <h1>Alejandro</h1>
+            <h1>{title}</h1>
             {/* <code>{JSON.stringify(newMessage)}</code> */}
-            <p>Soy un subtitulo</p>
+            <p>{subTitle}</p>
         </>
         
     )
+}
+
+FirstApp.propTypes = {
+    title: PropTypes.string.isRequired,
+    subTitle: PropTypes.number.isRequired,
 }
