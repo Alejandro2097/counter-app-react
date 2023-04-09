@@ -1,4 +1,3 @@
-
 // function App() {
 //     return (<h1>Hola mundo</h1>);
 // }
@@ -9,6 +8,6 @@ import React from 'react'
 
 export const HelloWorldApp = () => {
   return (
-    <div>HelloWorldApp</div>
+    <div>Hello World App</div>
   )
 }
