@@ -8,6 +8,6 @@ import React from 'react'
 
 export const HelloWorldApp = () => {
   return (
-    <div>Hello World App</div>
+    <h1>Hello World App</h1>
   )
 }
