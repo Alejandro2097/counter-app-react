@@ -4,6 +4,8 @@ import PropTypes from 'prop-types'
 
 export const CounterApp = ({value}) => {
 
+    const [] = useState(0);
+
     const  handleAdd = (event) => {
         
     }
