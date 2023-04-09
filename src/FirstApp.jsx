@@ -9,7 +9,8 @@ export const FirstApp = () => {
     const newMessage = 'Fernando!!!';
     return  (
         <>
-            <h1>{getMsj()}</h1>
+            <h1>Alejandro</h1>
+            {/* <code>{JSON.stringify(newMessage)}</code> */}
             <p>Soy un subtitulo</p>
         </>
         
